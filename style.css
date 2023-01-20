@@ -1,0 +1,250 @@
+body{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+ }
+
+    header {
+
+         display: flex;
+            justify-content:center;
+            height: 120px;
+
+          }
+
+            .container {
+         width: 990px;
+         
+                display: flex;
+        justify-content: space-between;
+        }
+
+
+        .logo{
+
+          
+           display: flex;
+
+            align-items: center;    
+            }
+
+            .menu{
+
+                display: flex;
+                align-items: center;
+
+            }
+
+            nav ul, nav li {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                
+                 }
+           
+         nav ul {
+            display: flex;
+
+         }
+
+         nav a{
+
+
+            padding: 15px;
+            color: darkcyan;
+            text-decoration: none;
+
+         }
+
+        
+                nav .active a, nav a:hover   {
+                background-color: rgba(52, 0, 240, 0.925);
+                color: rgb(150, 127, 255);
+
+
+            }
+            
+
+
+            #banner{
+
+                background-image: url('images/img1.jpeg');
+                background-position: center;
+                background-size: cover;
+                height: 670px;
+                display: flex;
+                justify-content: center;
+            }
+
+       
+            .column{
+
+                flex-direction: column;
+            }
+        
+
+            .banner_headline{
+            
+            flex:1;
+                display: flex;
+                flex-direction: column;
+             justify-content: center;
+            
+
+            }
+
+
+            .banner_options{
+
+
+                display: flex;
+                height: 210px;
+            }
+
+
+            .banner_headline h1{
+
+                color: aliceblue;
+                font-size: 70px;
+                margin: 0;
+                padding: 0;
+                text-shadow: -7px 9px 10px #2B3DCE;
+                max-width: 350px;
+   
+            }
+
+         
+            .banner_headline h2{
+
+                color: aliceblue;   
+                font-size: 20px;
+                text-shadow: -7px 9px 10px #2B3DCE;
+                 margin: 0;
+                 padding: 0;
+                 max-width: 350;
+                  margin-top: 30px;
+
+            }
+
+                .banner1, .banner2, .banner3{
+                    
+                    color: aliceblue;
+                    padding: 20px;
+                    flex: 1;
+
+                 }  
+
+                     .banner1{
+
+                        background-color: aqua;    
+                     }
+
+                     .banner2{
+                        background-color: #2B3DCE;
+                     }
+
+                     .banner3{
+
+                        background-color: rgb(10, 158, 158);
+                     }
+
+                     .banner_tittle{
+
+                        font-size: 20px;
+                     }
+
+                     .banner_desc{
+
+                        font-size: 15px;
+                        margin-top:20px;
+                        margin-bottom: 20px;
+                        
+                     }
+
+                        .banner_options a {
+
+
+                            border: 1px solid cornflowerblue;
+                            padding: 5px;
+                            color: aliceblue;
+                            font-size: 12px;
+                            text-decoration: none;
+                        }
+
+                        #geral{
+
+                            display: flex;
+                            justify-content: center;
+                          
+                        }
+
+                        .conteudo_title{
+
+                            margin-top: 30px;
+                            margin-bottom: 20px;
+                            font-size: 21px;
+                            font-weight: bold;
+                        }
+
+
+                        .conteudo_bar{
+
+                            width: 50px;
+                            height: 5px;
+                            background-color: aquamarine;
+                            margin-bottom: 10px;
+                        
+                        }
+             
+
+                        #rodape{
+
+                            background-color: black;
+                            display: flex;
+                            justify-content: center;
+                            height: 40px;
+                            line-height:40px;
+                            color: #f8fffd;
+                            font-size: 12px;
+                            margin-top: 30px;
+
+                        }
+
+
+
+                        @media(max-widht:800px){ 
+
+                            .banner_headline h1 {
+                                font-size: 55px; 
+                            
+                             } 
+
+                            .banner_headline h1 { 
+                                padding: 20px;
+                                     }
+                               
+                        .banner_headline h2 {
+                            font-size: 15px;
+
+                        }
+
+                        .banner_options {
+
+                            height: auto;
+                            flex-direction: column;
+
+                        }
+
+                        #geral{
+
+                            
+                        padding:20px ;
+                        }
+
+                        #rodape{
+
+                            flex-direction: column;
+                            
+
+                         }
+                        }
